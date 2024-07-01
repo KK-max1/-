@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type">
+        <item >川菜</item>
+        <item >鲁菜</item>
+        <item >粤菜</item>
+        <item >湘菜</item>
+        <item >沪菜</item>
+        <item >京菜</item>
+        <item >浙菜</item>
+    </string-array>
+</resources>

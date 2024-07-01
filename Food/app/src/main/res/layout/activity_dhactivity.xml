@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.DHActivity"
+    android:background="@drawable/ww">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border_bottom">
+        <com.example.food.widget.ActionBar
+            android:id="@+id/myActionBar"
+            android:layout_width="match_parent"
+            android:background="@color/colorBlack"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:text="这是餐馆的吉祥物"
+        android:textSize="30dp"/>
+    <ImageView
+        android:id="@+id/iv_cg"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/cg_animation" />
+    <ImageView
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/iv_hg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/hg_animation" />
+</RelativeLayout>
